@@ -1,15 +1,38 @@
-body {
-  background-color: #f8f9fa;
-  font-family: 'Arial', sans-serif;
+.custom-navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
+
+.hero-section {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+
+.text-area h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.text-area p {
+  font-size: 1.25rem;
+  color: #555;
   margin-bottom: 1.5rem;
 }
 
-h1, h2 {
-  font-weight: bold;
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
 
 button {
   transition: all 0.3s ease-in-out;
@@ -17,12 +40,15 @@ button {
 
 button:hover {
   transform: scale(1.05);
+  background-color: #004085 !important;
 }
 
-.container {
-  margin-top: 2rem;
-}
+@media (max-width: 768px) {
+  .text-area h1 {
+    font-size: 2.5rem;
+  }
 
-.form-group {
-  margin-bottom: 1.5rem;
+  .text-area p {
+    font-size: 1.1rem;
+  }
 }

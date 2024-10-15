@@ -1,4 +1,6 @@
 // src/index.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Route, Routes } from "react-router-dom";
@@ -16,5 +18,6 @@ root.render(
     </HashRouter>
   </React.StrictMode>
 );
+
 
 
