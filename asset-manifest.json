@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/product_Enquiry_react/static/css/main.d9f3393b.css",
+    "main.js": "/product_Enquiry_react/static/js/main.b1ec7049.js",
+    "index.html": "/product_Enquiry_react/index.html",
+    "main.d9f3393b.css.map": "/product_Enquiry_react/static/css/main.d9f3393b.css.map",
+    "main.b1ec7049.js.map": "/product_Enquiry_react/static/js/main.b1ec7049.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9f3393b.css",
+    "static/js/main.b1ec7049.js"
+  ]
+}
